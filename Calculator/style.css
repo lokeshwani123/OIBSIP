@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Ubuntu:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+
+html{
+    font-family: "Ubuntu", sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: skyblue;
+    font-family: "Ubuntu", sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 3rem; 
+}
+
+.container{
+    align-items: center;
+    background-color: grey;
+    border: 1px solid black;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0% 30%;
+}
+
+.button{
+    background-color: #48C9B0;
+    border: 1px solid white;
+    border-radius: 100%;
+    color: black;
+    font-family: "Orbitron",sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 10px;
+    padding: 25px;
+    text-align: center;
+    width: 77px;
+}    
+    
+.row{
+    margin: 10px 10px;
+}    
+
+.row input {
+    border: 1px solid black;
+    border-radius: 9px;
+    color: black;
+    font-family: "Orbitron", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    height: 80px;
+    padding: 5px 75px; 
+}
